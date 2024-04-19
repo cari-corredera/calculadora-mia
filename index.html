@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script> <!--defer para que cargue despues que el html-->
+        <title>Calculadora Mia</title>
+    </head>
+
+    <body>
+        <div>
+
+            <form action="#" autocomplete="off"readonly="">
+                <input type="textfield" value="" class="ventana" disablet readonly> <!--pantalla desabilitada- solo lectura-->
+                <br>
+                <input type="button" value="7" onclick="agregarAPantalla(7)">
+                <input type="button" value="8" onclick="agregarAPantalla(8)">
+                <input type="button" value="9" onclick="agregarAPantalla(9)">
+                <input type="button" value="+" onclick="agregarAPantalla('+')">
+                <br>
+                <input type="button" value="4" onclick="agregarAPantalla(4)">
+                <input type="button" value="5" onclick="agregarAPantalla(5)">
+                <input type="button" value="6" onclick="agregarAPantalla(6)">
+                <input type="button" value="-" onclick="agregarAPantalla('-')">
+                <br>
+                <input type="button" value="1" onclick="agregarAPantalla(1)">
+                <input type="button" value="2" onclick="agregarAPantalla(2)">
+                <input type="button" value="3" onclick="agregarAPantalla(3)">
+                <input type="button" value="x" onclick="agregarAPantalla('*')">
+                <br>
+                <input type="button" value="0" onclick="agregarAPantalla(0)">
+                <input type="reset" value="c">
+                <input type="button" value="=" onclick="ejecutar()">
+                <input type="button" value="/" onclick="agregarAPantalla('/')">
+            </form>
+
+        </div>
+    </body>
+</html>

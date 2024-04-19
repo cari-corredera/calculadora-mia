@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*resetear los componentes de los navegadores*/
+    transition: all 1s;/*se hace mas pequeño*/
+}
+
+div{
+    height: 100vw;
+    background-color: rgb(14,207,207,100%);
+    display: grid;
+    place-content: center;
+
+}
+
+div form{
+    width: 30em;
+    height: 30em;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 1px black; /*sombra debajo del cuadrado calc*/
+    background-color: rgb(255,0,230,50%);
+    text-align: center;
+   
+    
+}
+
+div form input{
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px black;
+}
+
+div form input:active{ /*active es = a hover,es cuando presiona*/
+    transform: scale(90%);
+}
+
+.ventana{
+    width: 90%;
+    font-size: 0.8em;
+    text-align: right;
+    padding: 6px;
+
+}
+    
+
+
